@@ -1,4 +1,4 @@
-# quanttide-repo-classifier
+# quanttide-domain-classifier
 
 量潮领域分类器：判断一篇内容或一个片段应当归属哪个领域第二大脑。
 

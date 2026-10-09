@@ -1,6 +1,6 @@
 # Roadmap
 
-`quanttide-repo-classifier` 判断一篇内容或一个片段应当归属哪个领域第二大脑，类别表见 [docs/category.md](./docs/category.md)，含 45 个已建仓领域与 5 个已定义未建仓领域。
+`quanttide-domain-classifier` 判断一篇内容或一个片段应当归属哪个领域第二大脑，类别表见 [docs/category.md](./docs/category.md)，含 45 个已建仓领域与 5 个已定义未建仓领域。
 
 ## 现状
 

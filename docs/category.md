@@ -1,6 +1,6 @@
 # 分类目标数据：领域第二大脑名单
 
-`quanttide-repo-classifier` 的分类目标类别表：待分类的内容或片段按下表归入对应领域第二大脑。
+`quanttide-domain-classifier` 的分类目标类别表：待分类的内容或片段按下表归入对应领域第二大脑。
 
 - 数据来源：`quanttide/quanttide` 的 `domains/README.md`（领域清单与目录树）与 `.gitmodules`（`domains/` 子模块）
 - 采集日期：2026-10-10
