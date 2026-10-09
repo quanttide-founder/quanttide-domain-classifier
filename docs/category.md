@@ -1,6 +1,6 @@
 # 分类目标数据：领域第二大脑名单
 
-`quanttide-repo-classifier` 的分类目标类别表：待分类仓库按下表归入对应领域第二大脑。
+`quanttide-repo-classifier` 的分类目标类别表：待分类的内容或片段按下表归入对应领域第二大脑。
 
 - 数据来源：`quanttide/quanttide` 的 `domains/README.md`（领域清单与目录树）与 `.gitmodules`（`domains/` 子模块）
 - 采集日期：2026-10-10
@@ -70,6 +70,6 @@
 
 ## 分类规则
 
-1. 以仓库名与描述为分类依据，优先匹配上表的仓库名与缩写。
-2. 跨领域仓库按主体归属判定，与 `quanttide/quanttide` 的四轴划分（assets / domains / default / adapters）保持一致。
-3. 无匹配类别时归入 `未分类`，并在此表新增候选类别后重跑分类。
+1. 以内容主题为分类依据，优先匹配上表的领域名、缩写与仓库名。
+2. 内容跨领域时按主体与意图判定，与 `quanttide/quanttide` 的四轴划分（assets / domains / default / adapters）保持一致。
+3. 无匹配类别时归入 `未分类`，并在本表新增候选类别后重跑分类。
