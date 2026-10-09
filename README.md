@@ -10,6 +10,8 @@
 
 数据来源为 `quanttide/quanttide` 的 `domains/README.md`（领域清单与目录树）与 `.gitmodules`（`domains/` 子模块），采集日期见文件头部。
 
+阶段计划见 [ROADMAP.md](ROADMAP.md)。
+
 ## 状态
 
 当前仅落地分类目标数据，内容分类逻辑待补。
