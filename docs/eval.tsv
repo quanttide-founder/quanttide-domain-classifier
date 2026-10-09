@@ -1,0 +1,194 @@
+id	category	text	source	name_leak
+meta-001	元工程	元工程领域的规章制度、工作流程与团队规范。	quanttide-bylaw-of-meta-engineering#README.md	yes
+meta-002	元工程	前阵子，在与AI进行深度对话时，它对我的思维与表达模式给出一个极其精准的判定——“**语境多元主义**”。	quanttide-essay-of-meta-engineering#metaphysics/category/index.md	no
+meta-003	元工程	· 日志说：“10月1日投放了A渠道，10月3日调整了预算，10月5日暂停了B渠道。” · 档案说：“当前活动状态：进行中，预算30万，主渠道A。”	quanttide-gallery-of-meta-engineering#category/journal-vs-profile.md	no
+meta-004	元工程	元工程的基本工作流程是四步：业务需求、哲学阐述、数学表达、代码实现。前三步把一段需求变成能检查的东西，第四步把它落到代码。	quanttide-handbook-of-meta-engineering#intro/workflow.md	yes
+meta-005	元工程	标准字段已迁至案例集：`docs/gallery/ontology/property/index.md`（本体标准属性）。	quanttide-specification-of-meta-engineering#README.md	no
+meta-006	元工程	--- description: 这篇教程面向的是只有一点离散数学基础或者实际编程经验的人；这一篇把前几篇一路用到的结构收成一个统一的形状，说明那条链背后的对象、态射与交换图；目的是让读者知道那些规则不是约定俗成，而是同一个数学形状的不同侧面。 plots: - 业务需求 - 哲学阐述 - 数学表达 - 代码实现 ---	quanttide-tutorial-of-meta-engineering#metaphysics/intro/categorical-view.md	no
+meta-007	元工程	传统路线（包括大模型）的问题是同一个：能拟合，但不知道自己知道什么。知识是隐式的、弥散的，散在权重里；说不清"我知道什么、不知道什么"，也说不清推理怎么来的。	quanttide-essay-of-meta-engineering#metaphysics/index.md	no
+meta-008	元工程	它与支付不同：支付数据的额度、余额是单独的数据，信用积分的功能是累积式的，两者的模型不一样。不是所有东西都要付钱，信用代表更多的可能性。	quanttide-gallery-of-meta-engineering#ontology/domain/quanttide-credit.md	no
+meta-009	元工程	把摊开的东西放回本体论与范畴论的坐标上：系统里有哪些东西存在（存在清单），各自属于哪一类，这条规矩说的是一种状态、一种关系，还是一次动作。这一步是元工程与其他工程方法分岔的地方——别的方法从需求直接跳到数学，这里先过一遍哲学，因为「有哪些东西」没答清楚，后面写什么都白写。	quanttide-handbook-of-meta-engineering#intro/workflow.md	yes
+meta-010	元工程	**元标准**是在标准体系建设过程中，从实践中总结出来的、用于定义和规范基础概念（元概念）及其关系的顶层共识。它构成整个标准体系的共同基底，为所有派生标准提供统一的语言、框架和扩展方向。	quanttide-specification-of-meta-engineering#index.md	no
+meta-011	元工程	第一反应是逐字段比对、看函数名对不对得上。这个直觉是错的，看一个反例。抽象规格对扣款的描述只有两句：余额减少，不变量保持。实现里加了审计日志，加了风控检查，还把那一步拆成三段——先冻结、再扣减、最后解冻。字段没一个对得上，函数名也不同，但它仍然是这份规格的合法实现：规格没禁止写日志，只是没要求；规格保证的「余额不会变负」，实现也守住了。	quanttide-tutorial-of-meta-engineering#metaphysics/intro/refinement.md	no
+meta-012	元工程	> 工作论文。由对话记录整理而成：论证与判断保持原样、未加料，口吻由对话体改为论文体。	quanttide-essay-of-meta-engineering#ethics/index.md	no
+meta-013	元工程	档案仓库的格式不需要严格遵循系统格式，而是作为系统的交付产出使用。案例才需要保持更完整的程序性结构。	quanttide-gallery-of-meta-engineering#category/profile-vs-gallery.md	no
+meta-014	元工程	先问清「你到底在说什么」。一份需求里有哪些名词、哪些规矩，把它们从散落的字段、注释和 `if` 里摊开；每个名词的边界在哪，每条规矩在什么情况下成立、什么时候不成立。这一步的产物是人话，不是符号。	quanttide-handbook-of-meta-engineering#intro/workflow.md	no
+meta-015	元工程	**本体**是对一个领域里"有什么、彼此什么关系、必须满足什么"的形式化定义。它把一个领域的知识写成可读、可推理、可校验的结构，而不是散落在文档里的描述。	quanttide-specification-of-meta-engineering#intro/ontology.md	no
+meta-016	元工程	--- description: 这篇教程面向的是只有一点离散数学基础或者实际编程经验的人；这一篇是形而上学入门的入口，讲清业务需求、哲学阐述、数学表达、代码实现这四步各自在做什么；目的是让读者读正课之前，先知道这套方法要拿形而上学与本体论去干什么。 plots: - 业务需求 - 哲学阐述 - 数学表达 - 代码实现 ---	quanttide-tutorial-of-meta-engineering#metaphysics/intro/index.md	no
+meta-017	元工程	本仓收录元工程方向的工作论文。目前四篇，前三篇是一组：**总纲**讲哲学如何降维成代码，**形而上学**讲结构怎么长，**伦理学**讲"应当"怎么进结构。	quanttide-essay-of-meta-engineering#README.md	yes
+meta-018	元工程	- 原文：《量潮第二大脑章程》 - 仓库：quanttide/quanttide-bylaw-of-meta-engineering - 原路径：`docs/bylaw/memory/second-brain.md`	quanttide-gallery-of-meta-engineering#category/index.md	yes
+meta-019	元工程	- **统一基础概念**：明确系统中最高层、最核心的概念（如日志、记忆、档案、工作文档等），确保这些概念在体系内具有相对稳定、清晰的定义，减少歧义。 - **规范概念关系**：定义元概念之间的基本关系（如加工流程、派生规则），为上层应用和标准提供一致的语义基础，同时允许关系在具体场景中细化。 - **保证扩展性**：提供可遵循的扩展模式，使具体领域或场景可在不破坏基础一致性的前提下，基于元概念派生新的子概念或标准，同时保持与整个体系的兼容。	quanttide-specification-of-meta-engineering#index.md	no
+meta-020	元工程	两个字段谁也管不住谁，于是数据库里能存下 `shipped` 为真、`paid` 为假的行——货发了，钱没到。这种行在业务上不存在，代码却拦不住，因为没有任何一行写着这个组合非法。	quanttide-tutorial-of-meta-engineering#metaphysics/intro/state-machine.md	no
+meta-021	元工程	当多个具有不同认知框架的主体试图构建共享实在时，单一维度的绝对真理往往是失效的。要在这种张力中存活，我就被迫在不同的语境下去兼容不同的概念。久而久之，这种跨主体的协作需求，便内化为我思维的底色。	quanttide-essay-of-meta-engineering#metaphysics/category/index.md	no
+meta-022	元工程	在 AI 协作的时代，知识管理面临两难：过度结构化会失去弹性，完全非结构化则无法推理和行动。量潮体系提出一套基于范畴、本体、实体的三层认知架构，让知识既保持灵活，又可信、可治理、可复用，构建容纳多方法论共存、支持人机协作、从数据到行动的认知基础设施。	quanttide-gallery-of-meta-engineering#index.md	no
+meta-023	元工程	- **总结性**：元标准并非预先设计或强制推行的规则，而是对已有实践和共识的提炼与抽象。它随着体系的发展而自然演化，反映当前阶段对基础概念的最稳定理解。 - **弱约束**：元标准提供的是指导性框架，而非刚性规定。各具体标准可在不违背元标准核心精神的前提下，根据实际场景灵活调整和扩展。它作为协调和沟通的基准，确保体系内概念的一致性，但不限制创新和多样性。	quanttide-specification-of-meta-engineering#index.md	no
+meta-024	元工程	- 没收到钱不能发货； - 已经发过货的不能退款——货出去了再把钱退回去，等于赔两次。	quanttide-tutorial-of-meta-engineering#metaphysics/intro/state-machine.md	no
+meta-025	元工程	把一个新对象往旧学科里挂的时候，常有一种别扭感：像是给一个长着三条腿的新东西硬套一双旧鞋——"行吧，传统分科里只能塞这儿，但总差点意思"。	quanttide-essay-of-meta-engineering#ethics/index.md	no
+meta-026	元工程	Context 是所有九宫格资产的默认入口，Archive 是过时资产的备份出口，两者不占九宫格位置。资产类型定义是资产治理的基本契约，所有仓库命名、目录结构、文档格式均以此为依据。	quanttide-gallery-of-meta-engineering#category/index.md	no
+meta-027	元工程	本体由四部分组成：**范畴、模型、关系、公理**。	quanttide-specification-of-meta-engineering#intro/ontology.md	no
+meta-028	元工程	1. 形而上学 2. 认识论 3. 伦理学 4. 逻辑学 5. 美学	quanttide-tutorial-of-meta-engineering#intro/index.md	no
+meta-029	元工程	本文主张一条"哲学工程化"的路线：**不是用 AI 做哲学分析，而是把哲学本身重写成一套可编译的形式系统**。哲学先降维成数学结构（这一步保住严谨性），再降维成可计算对象（这一步保住机器可处理性），最后落成代码原语（这一步保住它能被塞进系统架构里）。按此路线，逻辑学、形而上学、认识论、伦理学、美学五个分支各有其数学地基、可计算载体与代码落点。	quanttide-essay-of-meta-engineering#intro/index.md	no
+meta-030	元工程	第二大脑由 18 种标准资产（两个九宫格）加 Context（工作语境）和 Archive（工作归档）两种不占格资产构成，按陈述型记忆和程序型记忆两大九宫格体系组织。	quanttide-gallery-of-meta-engineering#category/index.md	no
+meta-031	元工程	**范畴**规定本体里**存在什么**——把领域里的事物归纳为若干类别，构成本体的对象集合。它回答的是"这个世界里有哪些种类的东西"，不涉及具体有几个、分别是什么值。	quanttide-specification-of-meta-engineering#intro/ontology.md	no
+meta-032	元工程	架构师写一份高层规格，程序员写一份实现。两份东西摆在一起，怎么知道它们说的是同一件事，而且实现没有偷偷少做？	quanttide-tutorial-of-meta-engineering#metaphysics/intro/refinement.md	no
+meta-033	元工程	前三篇由对话记录整理而成：论证与判断保持原样、未加料，口吻已由对话体改为论文体；第四篇自旧札记仓移入，未改写。	quanttide-essay-of-meta-engineering#README.md	no
+meta-034	元工程	关系单独一张表，每条带类型、方向、有效期与依据。	quanttide-gallery-of-meta-engineering#ontology/domain/quanttide-org.md	no
+meta-035	元工程	一笔支付钱是从哪个账户出的，现在存的是账户名的字符串。同一个账户改个名字，历史支付就对不上了；两个账户重名，也分不清是谁付的。	quanttide-tutorial-of-meta-engineering#metaphysics/intro/static-structure.md	no
+meta-036	元工程	常见做法是把哲学当分析对象——"用 AI 做伦理分析"。这条路线不一样：它把哲学当作**规范来源**，给它补一条从本体到代码原语的编译链，让"应当"变成系统里不可删除的一条边。	quanttide-essay-of-meta-engineering#intro/index.md	no
+meta-037	元工程	起初把主数据整体归入数据工程，理由是采集、清洗、合并、分发都是对数据的操作。这一判断漏掉了主数据首先不是「被处理的数据」，而是定义——有哪些实体、各自什么唯一标识与字段、彼此什么元关系。元认知建立在实体清单之上：不知道有哪些组织、人物、产品、客户，就没有可供推理的对象。	quanttide-gallery-of-meta-engineering#ontology/entity/master-data.md	no
+meta-038	元工程	这三条路各自往前走，而且各自会长新状态：支付这边迟早要加分期、部分退款；履约这边迟早要加分批发货、签收、退货。压成一个字段的代价就在这里——合法的组合眼下是 7 种，就要列 7 个变体；再加一个维度（比如「审核」三个取值），就得在 7 × 3 里挑，成乘法长。	quanttide-tutorial-of-meta-engineering#metaphysics/intro/composition.md	no
+meta-039	元工程	大模型证明了拟合能力可以很强，但它不知道自己知道什么、为什么知道、什么时候该更新。本文主张：**智能的瓶颈不是拟合能力，而是结构能力**。据此提出一条工程路线——把「理解」变成结构化建模：先建本体（世界的存在论骨架），再让智能在结构上运行，推理沿结构推导而不在向量空间里做模式匹配。本文给出可运行的五层架构、从工业界可执行本体（Palantir）可吸收的工程模式，并如实列出这条路引入的新问题。	quanttide-essay-of-meta-engineering#metaphysics/index.md	no
+meta-040	元工程	组织管理把量潮创始人控制下的主体和它们之间的关系当成主数据来管：以创始人为根节点，主体与关系各记一张表，业务数据挂在关系下面。	quanttide-gallery-of-meta-engineering#ontology/domain/quanttide-org.md	no
+code-001	软件工程	（一）**可脚本化**。命令行工具的首要消费者是脚本与 AI，其次才是人。默认不交互、输出可解析、退出码可判断，任何需要人盯屏才能使用的工具视为不合格。	quanttide-bylaw-of-software-engineering#category/platform/cli.md	no
+code-002	软件工程	平台契约规定跨项目统一的技术栈与部署约定，从现有应用（如 qtcloud-asset）的工程实践中提炼。契约未覆盖的选型由项目自定。	quanttide-gallery-of-software-engineering#categories/platform/index.md	no
+code-003	软件工程	本手册适用于由 AI 辅助编程（Vibe Coding）快速生成的初始代码模块。这类代码往往低质量、高冗余，本手册用一套标准化的三阶段治理流程，将其转化为逻辑清晰、可维护、符合工程标准的代码，降低后续维护成本与潜在风险。	quanttide-handbook-of-software-engineering#index.md	no
+code-004	软件工程	软件工程领域的工程标准：数据模型、接口契约与规范约定。	quanttide-specification-of-software-engineering#README.md	yes
+code-005	软件工程	AI 生成的代码已经又多又乱，人类无法逐行理解。在「古法编程」时代（AI 介入之前、人类亲手逐行写代码的年代），依赖图是可选项，甚至是鸡肋，因为人类对自己的代码还有主导权。现在不行了，必须用工具去跟工具斗争，用魔法打败魔法。	quanttide-tutorial-of-software-engineering#stages/reflect/dependency-graph.md	no
+code-006	软件工程	软件工程领域的规章制度、工作流程与团队规范。	quanttide-bylaw-of-software-engineering#README.md	yes
+code-007	软件工程	每个子目录定义一类软件的统一约定，回答「这一类软件长什么样」。	quanttide-gallery-of-software-engineering#index.md	no
+code-008	软件工程	评审阶段审查已有代码，弄清实际的业务逻辑与架构边界、核心模块与接口定义、数据流向，同时识别逻辑漏洞、性能瓶颈、安全缺陷、命名不规范、注释缺失等问题，形成问题清单。	quanttide-handbook-of-software-engineering#index.md	no
+code-009	软件工程	通过描述人类意图和代码事实之间的关系，不断驱动目标代码向人类可理解的方向重构。	quanttide-specification-of-software-engineering#index.md	no
+code-010	软件工程	本教程的读者，是已经掌握「氛围编程」（vibe coding，主要靠与 AI 对话来生成代码的开发方式）基础的开发者：项目规模增长到无法继续迭代，技术债务开始拖住每一次改动。这时候加人或加算力都解决不了问题，问题出在代码的结构和规范上。	quanttide-tutorial-of-software-engineering#index.md	no
+code-011	软件工程	**第二条 适用范围** 本章程适用于量潮科技所有面向人与机器调用的命令行工具，包括平台 CLI（如 `qtcloud-execute`、`qtcloud-work`）、运维脚本入口与工具箱可执行文件。库的内部 API 不在本章程约束范围内。	quanttide-bylaw-of-software-engineering#category/platform/cli.md	no
+code-012	软件工程	量潮软件工程契约按三个层级组织：软件类别定义、框架选型、语言知识。	quanttide-gallery-of-software-engineering#index.md	yes
+code-013	软件工程	流程来自早期总结的 3R 模型：评审、反思、重构，从实践看依然有用。第一阶段是评审，而不是设计——代码已经写成，工作从读懂它开始。	quanttide-handbook-of-software-engineering#index.md	no
+code-014	软件工程	量潮软件工程规格旨在为量潮的软件工程活动提供一套通用的建模方式。	quanttide-specification-of-software-engineering#index.md	yes
+code-015	软件工程	意图驱动编程是一种让开发者专注于描述「想要什么」（意图），而非「如何实现」（步骤）的编程范式：人把意图说清楚，由系统或 AI 完成从意图到具体实现的转换。	quanttide-tutorial-of-software-engineering#intro/intent.md	no
+code-016	软件工程	**第一条 制定依据** 本章程依据《量潮软件工程章程》制定，参照 Google 命令行工具实践：[Fuchsia 命令行界面规范](https://fuchsia.googlesource.com/fuchsia/+/main/docs/development/api/cli.md)、[Google Cloud CLI 命令约定](https://cloud.google.com/sdk/gcloud/reference/topic/command-conventions)、[Google 开发者文档风格指南](https://developers.google.com/style/code-syntax)与 [Abseil 选项指南](https://abseil.io/docs/python/guides/flags)，规范量潮命令行工具的设计、输出与演进。	quanttide-bylaw-of-software-engineering#category/platform/cli.md	yes
+code-017	软件工程	- Provider（服务端）：Go - Studio（Web 客户端）：Flutter，路由统一使用 go_router - CLI（管理工具）：Rust	quanttide-gallery-of-software-engineering#categories/platform/index.md	no
+code-018	软件工程	[评审](./review/)检查已有成果与承接下一段工作的上下文。常见的习惯是在一段长对话里做完整个工程，对话越长，隐含的上下文越多，越不便回看与交接；更合用的做法是不断开新对话，每完成一段工作就评审它、整理它、发现问题，再以评审干净的对话作为下一段工作的起点。	quanttide-tutorial-of-software-engineering#stages/index.md	no
+code-019	软件工程	Flutter 框架的默认选型约定。项目未特殊声明时，遵循以下默认。	quanttide-gallery-of-software-engineering#frameworks/flutter/index.md	no
+code-020	软件工程	意图驱动编程变得重要，是因为代码的地位发生了变化：过去代码是核心资产，需要长期维护；在 AI 原生场景下，代码可能被视为可再生的「耗材」。	quanttide-tutorial-of-software-engineering#intro/intent.md	no
+code-021	软件工程	第一类是 `platform`——量潮云平台软件：前端 Studio、后端 Provider、CLI 管理工具三件套，统一技术栈分工（Go / Flutter / Rust）、桶命名、域名、IaC 目录（`manifests/terraform`）、质量门禁与可观测安全约定。	quanttide-gallery-of-software-engineering#index.md	no
+code-022	软件工程	本教程教你用代码分析工具和重构技巧，管住 AI 生成的代码。	quanttide-tutorial-of-software-engineering#index.md	no
+code-023	软件工程	并将对应版本的 CanvasKit 资源部署到站点该路径。资源可从 Flutter SDK 缓存目录（`bin/cache/artifacts/engine/*/canvaskit/`）或 npm 包 `canvaskit-wasm` 获取，注意版本需与构建使用的 Flutter 引擎版本一致。	quanttide-gallery-of-software-engineering#frameworks/flutter/index.md	no
+code-024	软件工程	第二阶段是深度分析，任务是看清代码的现状。	quanttide-tutorial-of-software-engineering#stages/reflect/index.md	no
+code-025	软件工程	状态管理库（如 Riverpod）属项目内选型，不纳入平台契约。	quanttide-gallery-of-software-engineering#categories/platform/index.md	no
+code-026	软件工程	既然可以积累，做法就是从头开始，一项一项收集 AI 写代码时反复出现的坏模式，慢慢提炼出来，最终提炼成一个案例库。	quanttide-tutorial-of-software-engineering#intro/index.md	no
+code-027	软件工程	Flutter Web 生产环境默认使用 CanvasKit 渲染器，页面初始化时会从 `gstatic.com`（Google 域）下载渲染引擎的 wasm 文件，约 6MB。国内网络对 `gstatic.com` 基本不可达，由此产生的白屏表现为：页面 HTML 秒开，`main.dart.js` 加载完成后卡在 CanvasKit 下载，画面一直空白。是否走代理决定了该域是否可达，因此问题表现为时好时坏。	quanttide-gallery-of-software-engineering#frameworks/flutter/index.md	no
+code-028	软件工程	推演交给 AI，权衡留给人。AI 协助判断各条路径的代价与影响，人综合取舍，定下最终方案。	quanttide-tutorial-of-software-engineering#stages/refactor/index.md	no
+code-029	软件工程	[反思](./reflect/)用依赖图等深度分析工具看清代码的真实结构，再与预期架构逐条对照。差异归为四类：AI 自行发明的结构、违反架构原则的实现、人类预想错误之处、人类盲区带来的新发现。模块设计与模块边界是差异的重灾区。	quanttide-tutorial-of-software-engineering#stages/index.md	no
+code-030	软件工程	实现可以重生成，意图不能。这段代码为什么存在、边界在哪里，不写下来就随人丢失；等意图丢了，重新生成的实现也回不到原目标。	quanttide-tutorial-of-software-engineering#intro/intent.md	no
+code-031	软件工程	教程按三个阶段展开：评审（Review）、反思（Reflect）、重构（Refactor），合称 3R。三个阶段不是一次性的流水线，而是一圈圈收敛的循环。	quanttide-tutorial-of-software-engineering#stages/index.md	no
+code-032	软件工程	为什么值得单独设计一步：从分析到重构之间隔着一段不小的距离，这段距离需要专门的设计。差异只说明现状与预期不符，不说明该怎么改；同一个差异通常对应多条可行的改法，各自的代价与影响面并不相同。这一步交给 AI 尤其困难，所以值得单独设计。	quanttide-tutorial-of-software-engineering#stages/refactor/index.md	no
+code-033	软件工程	第一阶段是评审：回头看刚完成的工作，检查它的成果，并把承接下一段工作所需的上下文整理干净。它不只做一次，同时贯穿后两个阶段。	quanttide-tutorial-of-software-engineering#stages/review/index.md	no
+code-034	软件工程	方法总纲是[依赖图分析](./dependency-graph.md)：在代码目录内分析模块之间、模块内部类与函数之间的依赖关系并画出图，输出按事先设定的层次分层。画出来的图第一眼看上去通常层是齐的、结构是正常的，只看分层，AI 能做的和人类差不多。所以关键不在画图，而在对照。	quanttide-tutorial-of-software-engineering#stages/reflect/index.md	no
+code-035	软件工程	评审的对象是每一段工作的成果，既包括代码，也包括承接下一段工作的上下文。	quanttide-tutorial-of-software-engineering#stages/review/index.md	no
+code-036	软件工程	案例库尚在建设中，本章先记录假设本身，后续条目会陆续补入。	quanttide-tutorial-of-software-engineering#intro/index.md	no
+code-037	软件工程	依赖图把模块之间、以及模块内部类与函数之间的依赖关系准确画出来。这个工具本身非常古早，真正新的是它要回答的问题：代码的骨架是否仍然在人类的理解之内。我们把针对这个问题的依赖图分析称为「智能依赖图分析」——不只看结构，还要看结构背后的语义。	quanttide-tutorial-of-software-engineering#stages/reflect/dependency-graph.md	no
+code-038	软件工程	本章记录教程背后的初步假设：AI 犯的错误具有一定的共性，而这些共性是可以被积累的。	quanttide-tutorial-of-software-engineering#intro/index.md	no
+code-039	软件工程	为什么要专门看：人对自己代码的印象，往往停留在设计之初；AI 参与之后的代码，早已偏离很远。所以这一阶段要把实际结构暴露出来，再与预期架构逐条对照。	quanttide-tutorial-of-software-engineering#stages/reflect/index.md	no
+code-040	软件工程	一种做法是路径推演：从当前版本出发，向若干个可能性推演，再从推演结果反推还存在哪些可能性。可能性不断展开，最终会得到不同的路径与不同的结果。例如面对一个模块边界划错的差异，可以推演「维持现状」「拆成两个模块」「上移一层」三条路，每条路往下又会分出新的岔口。	quanttide-tutorial-of-software-engineering#stages/refactor/index.md	no
+data-001	数据工程	本章程是量潮数据工程的**治理规则**，回答"必须做什么"的问题。	quanttide-bylaw-of-data-engineering#AGENTS.md	yes
+data-002	数据工程	**工作论文 v0.1** **作者**：量潮数据工程团队（待补充） **日期**：2026-10-09 **关键词**：数据智能体；形式化验证；数据工程；可复现性；可证伪性；搜索行为诊断；四层框架	quanttide-essay-of-data-engineering#intro/index.md	yes
+data-003	数据工程	> 格式：Keep a Changelog + checkbox 任务清单。 > ROADMAP 面向未来计划；发布后将已完成条目迁移到 CHANGELOG。 > 当前：v0.0.2（内容积累期）；目标 v0.1.0：首批完整案例。	quanttide-gallery-of-data-engineering#ROADMAP.md	no
+data-004	数据工程	DRD MUST 使用 Markdown 格式。DRD 的受众是客户和业务方，MUST NOT 包含 YAML 结构或技术实现细节。	quanttide-specification-of-data-engineering#requirement/index.md	no
+data-005	数据工程	这本教程将介绍一个你在日常工作或学习中经常碰到但可能不太了解的专业知识——"数据工程"。它教你如何更高效地处理数据，让数据工作不再那么复杂纠结，比如，采集数据时如何自动完成、分析数据时如何减少错误、与别人共享数据时应注意什么等。通过阅读这本教程，你将掌握处理数据的有效方法，工作或学习中的数据问题也会更容易解决。	quanttide-tutorial-of-data-engineering#index.md	yes
+data-006	数据工程	spec 定义目录结构、文件格式、字段定义、命名约定。	quanttide-bylaw-of-data-engineering#AGENTS.md	no
+data-007	数据工程	市场数据智能体通常将用户问题直接映射为意图识别、指标生成、SQL/代码与答案，擅长查询执行，却缺少将模糊判断形式化并验证的环节。本文提出一种四层方法论：**数据需求 → 数据意图 → 数据规格 → 数据实现**。其中，数据需求是价值合同；数据意图是形式化验证合同，负责把模糊意图转为形式化对象、操作定义、指标、可证伪命题、因果图、验证方法与验证结论；数据规格是约束合同，是数据意图的具象与计算机实现的约束；数据实现是工程合同，负责用具体语言、管道、命令执行。以“量潮搜索工程”诊断多智能体搜索低效为例，本文展示四层如何把“搜索效率低”转成可追溯、可证伪、可复现的数据产物。该方法论的核心区别在于：数据智能体不再是查询执行器，而是形式化验证器。	quanttide-essay-of-data-engineering#intro/index.md	no
+data-008	数据工程	量潮数据工程用例库收录数据工程典型案例，各案例均按同一套四层框架组织。	quanttide-gallery-of-data-engineering#index.md	yes
+data-009	数据工程	- `requirement/` — DRD 数据需求文档规范 - `specification/` — Contract 数据契约、Blueprint 数据蓝图规范 - `implementation/` — Catalog 数据目录、Pipeline 数据管道规范	quanttide-specification-of-data-engineering#AGENTS.md	no
+data-010	数据工程	数据工程就是解决这类问题的方法论。我们应用软件工程的方法和技术，我们采用软件工程的方法论和技术手段，为数据处理过程中的重复性问题，比如收集、存储、预处理等，提供可重复使用的解决方案，从而让数据分析人员可以更加流畅地执行分析过程、专注于分析问题本身。这些解决方案中，许多都需要专门处理某一类任务的复杂基础设施支持，因此有专家专注于搭建和维护这些基础设施。我们把这些专家称为“数据工程师”，狭义上的“数据工程”指的就是他们的职责范围。	quanttide-tutorial-of-data-engineering#index.md	yes
+data-011	数据工程	数据工程领域的规章制度、工作流程与团队规范。	quanttide-bylaw-of-data-engineering#README.md	yes
+data-012	数据工程	> 用户问题 → 意图识别 / 槽位填充 → 规格 / 指标 → SQL / 代码 → 答案	quanttide-essay-of-data-engineering#intro/index.md	no
+data-013	数据工程	多个智能体（pi、zed、hermes、hermes-backup、dsh、opencode）的搜索行为不稳定：同样的任务，有的会话几次搜索即命中，有的会话反复搜索仍拿不到可用结果。搜索低效直接拖低任务成功率，并消耗使用者对智能体的信任。	quanttide-gallery-of-data-engineering#quanttide-search/index.md	no
+data-014	数据工程	input 与 output 的字段名 MAY 重叠；重叠表示同一数据项在处理前后的两种形态。除字段名重叠外，input 与 output 之间不存在强制推导关系。	quanttide-specification-of-data-engineering#specification/contract.md	no
+data-015	数据工程	假如你是一个正在帮助其他同事分析数据的办公室白领，或者是市场分析师、投资机构研究员等可能需要分析公开数据的角色，你可能每天都在收集和整理不同来源、不同原始格式的数据，使用Excel等工具预处理已有变量、计算想要的结果、通过图表展示结果，并且把结果提交给老师、上级、客户、同事等其他人。在反复做数据分析的过程中，你是否感觉到收集和整理数据等过程十分枯燥乏味并且有无意义感，一不小心就容易出错、并且出错还会对分析结果有很大影响？你是否有思考过如何可以提升效率和质量？	quanttide-tutorial-of-data-engineering#index.md	no
+data-016	数据工程	本章程适用于所有基于量潮数据工程标准规范的技术活动，包括数据管道编排、数据蓝图设计、数据契约维护、数据目录管理等。	quanttide-bylaw-of-data-engineering#index.md	yes
+data-017	数据工程	案例按「需求 → 哲学意图 → 数学形式化验证 → 计算机实现」四层链路展开：先概念、后指标，把模糊判断转成可追溯、可证伪、可复现的数据产物。	quanttide-gallery-of-data-engineering#index.md	no
+data-018	数据工程	数据契约（Contract）是数据输入/输出结构的正式定义。它描述数据"长什么样"——字段名、数据类型、约束条件和质量承诺。	quanttide-specification-of-data-engineering#specification/contract.md	no
+data-019	数据工程	bylaw 定义流程要求、质量约束、变更规则、跨领域边界。	quanttide-bylaw-of-data-engineering#AGENTS.md	no
+data-020	数据工程	1. 先概念，后指标； 2. 先定义，后计算； 3. 先可证伪，后自动化； 4. 全链可追溯； 5. 可复现、可争论、可验收。	quanttide-gallery-of-data-engineering#index.md	no
+data-021	数据工程	> 层次：Implementation | 动词：implement | 受众：运行时 | 格式：YAML + 可执行代码	quanttide-specification-of-data-engineering#implementation/pipeline.md	no
+data-022	数据工程	本章程旨在建立量潮数据工程的技术规范与治理规则。	quanttide-bylaw-of-data-engineering#index.md	yes
+data-023	数据工程	> 核心目标：让用例库成型——案例结构模板稳定、覆盖多个场景类型，可作为外部客户参考的案例集。满足交付标准即发 v0.1.0，不按时间排期。	quanttide-gallery-of-data-engineering#ROADMAP.md	no
+data-024	数据工程	**规范定义"有什么"和"长什么样"，不定义"怎么用"。**	quanttide-specification-of-data-engineering#AGENTS.md	no
+data-025	数据工程	为建立数据工程活动的统一规范，使数据处理过程可定义、可追溯、可验收，特制定本章程。	quanttide-bylaw-of-data-engineering#index.md	yes
+data-026	数据工程	量潮搜索工程负责解决从「信息在哪」到「把它取出来」：可索引化、索引的建立与更新、查询解析、召回、排序与质量评测。本案例按「数据需求 → 数据意图 → 数据规格 → 数据实现」四层链路展开（一般框架见[首页](../index.md)），把「搜索效率低」这类模糊判断，转成可追溯、可证伪、可复现的数据产物。	quanttide-gallery-of-data-engineering#quanttide-search/index.md	no
+data-027	数据工程	Contract 是 Specification 的组成部分，与 [Blueprint](blueprint.md) 并列。Contract 定义结构约束，Blueprint 定义处理流程。两者共同构成完整的 Specification。	quanttide-specification-of-data-engineering#specification/contract.md	no
+data-028	数据工程	- 目标：定位搜索低效的主因，形成可验证的改进方向，产出一份可复现的诊断。 - 非目标：本次不重写检索算法；不覆盖非搜索类工具的低效；不追求指标的全覆盖。	quanttide-gallery-of-data-engineering#quanttide-search/index.md	no
+data-029	数据工程	- [ ] 规范与实现差异核对：`specification.yaml` 实际案例与规范字段定义逐项比对，差异修正到规范或案例	quanttide-specification-of-data-engineering#ROADMAP.md	no
+data-030	数据工程	把 `domains/` 的领域知识接通到 Hermes 智能体：负责提示词装配、上下文装载与工具对接，不生产领域事实，只做接通。	quanttide-gallery-of-data-engineering#quanttide-hermes/index.md	no
+data-031	数据工程	Blueprint MUST 使用 YAML 格式。Blueprint 的受众是工程师和 Pipeline 实现者，MUST 可被机器解析。	quanttide-specification-of-data-engineering#specification/blueprint.md	no
+data-032	数据工程	> 格式：Keep a Changelog + checkbox 任务清单。 > ROADMAP 面向未来计划；发布后将已完成条目迁移到 CHANGELOG。 > 当前：spec/v0.0.2（四层框架重构 + RFC 2119 规范升级已发布）；目标 v0.1.0：正式规范发布。	quanttide-specification-of-data-engineering#ROADMAP.md	no
+data-033	数据工程	数据需求文档（Data Requirements Document，DRD）是数据工程流程的入口工件。它描述**客户想要什么**，使用业务语言而非技术术语。DRD 由 `clarify` 动作从客户聊天记录或上下文中提取并结构化。	quanttide-specification-of-data-engineering#requirement/index.md	yes
+data-034	数据工程	> 版本：v0.0.2 | 日期：2026-08-08 > 本文档定义量潮数据工程的四层框架及其组件规范。	quanttide-specification-of-data-engineering#index.md	yes
+data-035	数据工程	Blueprint 是 Specification 的组成部分，与 [Contract](contract.md) 并列。一个 Blueprint MUST 关联一个 Contract： - Contract 定义此蓝图处理的**数据结构** - Blueprint 定义此数据的**转换步骤**	quanttide-specification-of-data-engineering#specification/blueprint.md	no
+data-036	数据工程	> 核心目标：发布 v0.1.0 正式版——四层框架（Requirement → Specification → Implementation → Task）与 RFC 2119 规范格式落定，各消费者（CLI、Provider、Studio、案例库）对齐新规范。满足发布预检即发 v0.1.0，不按时间排期。	quanttide-specification-of-data-engineering#ROADMAP.md	no
+data-037	数据工程	Pipeline 是 Implementation 的组成部分，与 [Catalog](catalog.md) 并列： - Pipeline 定义**怎么执行**（运行时配置 + 命令映射） - Catalog 记录**执行了什么**（运行时文件注册）	quanttide-specification-of-data-engineering#implementation/pipeline.md	no
+data-038	数据工程	数据蓝图（Blueprint）是数据处理工作流的有序步骤定义。它描述"怎么处理"——数据从输入格式转换到输出格式需要经过哪些处理环节。	quanttide-specification-of-data-engineering#specification/blueprint.md	no
+data-039	数据工程	数据目录（Catalog）是运行时文件注册表。它记录已接收、处理中、已交付的文件（Volume），回答"有哪些数据"。	quanttide-specification-of-data-engineering#implementation/catalog.md	no
+data-040	数据工程	数据管道（Pipeline）是实现层的可执行数据处理流程定义。它将 Blueprint 中定义的步骤映射为具体的运行时命令、环境配置和调度规则。	quanttide-specification-of-data-engineering#implementation/pipeline.md	no
+knowl-001	知识工程	本仓库收录了量潮知识工程团队的实践案例，涵盖知识图谱构建、本体建模、知识抽取与管理等知识工程领域的实际项目示例。	quanttide-gallery-of-knowledge-engineering#README.md	yes
+knowl-002	知识工程	社区（`Community`）是知识图谱中的一个独立知识空间，每个社区围绕特定主题组织信息，包含节点、关系和属性。	quanttide-specification-of-knowledge-engineering#models/graphs.md	no
+knowl-003	知识工程	如果写知识工程的教程，一开始就可以立论“规模”和“深度”的权衡，介绍技术发展如何突破限制且带来新的挑战。	quanttide-tutorial-of-knowledge-engineering#index.md	yes
+knowl-004	知识工程	知识图谱是一种结构化的语义知识库，用于描述现实世界中的概念及其相互关系。它以“实体-关系-实体”三元组的形式连接节点（实体）和边（关系），形成一个网状的知识结构，可以帮助搜索引擎实现更精准的语义检索，并被广泛应用于智能搜索、推荐系统和问答系统等人工智能领域。	quanttide-specification-of-knowledge-engineering#models/graphs.md	no
+knowl-005	知识工程	阐述如何使用大模型制作准确的知识推理引擎。	quanttide-tutorial-of-knowledge-engineering#1_intro/2.md	no
+knowl-006	知识工程	定义：连接实体之间的联系，表示实体之间是如何相互关联的。	quanttide-specification-of-knowledge-engineering#models/graphs.md	no
+knowl-007	知识工程	我想通过整理工作资料给自己和团队建立秩序。	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-008	知识工程	定义：客观存在并可互相区别的事物，可以是人、地点、事物或抽象概念。	quanttide-specification-of-knowledge-engineering#models/graphs.md	no
+knowl-009	知识工程	直面知识工程的脆弱性。 真实世界中，知识在不断动态变化更新。维护越来越复杂的知识也需要越来越多的资源。 KnowlOps 等现代自动化 CI CD 实践需要被重视。 人机协同的专家标注，结合日常使用验证。 现代知识工程也是一个复杂的系统工程。系统工程最重要的就是反脆弱。 随着知识工程的解决方案越来越复杂，知识工程系统也必然会越来越脆弱。	quanttide-tutorial-of-knowledge-engineering#index.md	yes
+knowl-010	知识工程	- 节点`nodes`: 表示实体对象（人、事、物、概念等）。 - 关系`relationships`: 连接节点，表示实体间的各种关联。	quanttide-specification-of-knowledge-engineering#models/graphs.md	no
+knowl-011	知识工程	这就是争议本身。所以需要这章的方法澄清。	quanttide-tutorial-of-knowledge-engineering#1_intro/2.md	no
+knowl-012	知识工程	我意识到一般的知识管理体系已经无法有效地帮助我解决当前越来越复杂的知识传递问题，因此开始考虑知识工程。	quanttide-tutorial-of-knowledge-engineering#index.md	yes
+knowl-013	知识工程	您设想中这个知识系统的核心，是追求一个唯一的、统一的“客观事实”，还是旨在清晰地呈现并管理不同视角和解释框架下的“多元事实”？ 都需要，在不同的场景有用	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-014	知识工程	“李四是五年经验的 Python 工程师” “张三是数据科学家”	quanttide-tutorial-of-knowledge-engineering#1_intro/2.md	no
+knowl-015	知识工程	什么是“信息”？什么是“知识”？“知识”和“信息”有什么区别	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-016	知识工程	我最近有一个发现，就是我跟AI聊天的时候，经常会觉得聊着聊着就突然聊不下去了，就感觉好像陷在了一个信息茧房里边。但是呢，又好像可能就是思考的规律本身就是我脑子里有很多很多问题，一会想这个，一会想那个，然后他突然出现一个片段这样子	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-017	知识工程	对应的操作是 Graphiti 的第二步自定义教程。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	no
+knowl-018	知识工程	传递小纸条确实是我需要的。比如我有了一个 idea，但是这个 idea 可能不容易直接清楚地表达，我想用一个知识系统帮我加工以后传递给我想要给的人。	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-019	知识工程	智能草稿箱有现成 AI 辅助流程，主要是加工想法比较难	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-020	知识工程	其他范式之下，系统是静态的，角色是孤立的。而知识工程需要协作帮助系统自适应地迭代。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	yes
+knowl-021	知识工程	只要能记录谁参与贡献了什么知识，就都好办。“可溯源的贡献关系”。	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-022	知识工程	第一节：跑通 Graphiti 示例项目 教学目标：理解知识库应用的基本组成部分和工作流程 备注：可能侧重于存储，推理引擎下一节展开讲。	quanttide-tutorial-of-knowledge-engineering#1_intro/1.md	no
+knowl-023	知识工程	提供长期的结构化记忆，补充大模型本体缺乏聚焦的特点，帮助用户在一个问题深度思考。	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-024	知识工程	定义“职务”、“技能”，建立职务和技能的默认关联。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	no
+knowl-025	知识工程	需要领域专家，这里是人力资源专家，提出方向，知识工程师实现。这是知识工程领域的基本范式，区别于其他范式的工作方式。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	yes
+knowl-026	知识工程	在实际工作中，可能在招聘或者内部 HR 登记中可以知道这个人本身的技能，也可以通过其他新的信息验证。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	no
+knowl-027	知识工程	先提供可能的办法，然后告诉用户找到以后如何提交和审批	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-028	知识工程	如果想要进一步地升级前面的例子，就需要根据推理过程发现的问题深入思考，如何把模糊的知识变精确。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	no
+knowl-029	知识工程	处理自己不知道的信息和有争议的信息。因为现实问题就是充满模糊的，一个好的知识系统要保持敬畏。	quanttide-tutorial-of-knowledge-engineering#index.md	no
+knowl-030	知识工程	1. 忠实地回答原文 2. 根据常识推测 3. 客观地记录可能性	quanttide-tutorial-of-knowledge-engineering#1_intro/2.md	no
+knowl-031	知识工程	我的推理引擎是推理出来张三也会的。我需要让他说下为什么。明明知识图谱里没有。	quanttide-tutorial-of-knowledge-engineering#1_intro/2.md	no
+knowl-032	知识工程	从 AI 的回答看，大家倾向于比较保守地对待张三。 而从实际情况来看，张三几乎很大可能也会 Python。因此很多知识是模糊的。 这里会关系到如何定义知识库应用的回答模式。比如，如果希望它尽可能推测，则回答出来的结果会更精确。 同时还可以引导知识工程团队进一步明确信息。	quanttide-tutorial-of-knowledge-engineering#1_intro/2.md	yes
+knowl-033	知识工程	协作抽取范式，把模糊的知识变精确。抽取了“职务”、“技能”等领域知识。	quanttide-tutorial-of-knowledge-engineering#1_intro/3.md	no
+agent-001	智能体工程	量潮智能体工程章程 — 领域的根本规则与治理约定。	quanttide-bylaw-of-agent-engineering#README.md	yes
+agent-002	智能体工程	量潮智能体工程札记 — 领域思考、评论与随笔。	quanttide-essay-of-agent-engineering#README.md	yes
+agent-003	智能体工程	量潮智能体工程案例集 — 领域实践案例与成果展示。	quanttide-gallery-of-agent-engineering#README.md	yes
+agent-004	智能体工程	- 长度 1-64 字符 - 仅包含小写字母（a-z）和连字符（-） - 不能以连字符开头或结尾 - 不能包含连续连字符（--） - 必须与父目录名称匹配	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-005	智能体工程	量潮智能体工程标准 — 领域的规范与标准集合。	quanttide-specification-of-agent-engineering#README.md	yes
+agent-006	智能体工程	流程失败多数是类别错配。在快速漂移的市场里跑纯控制环，会在错误的山头上精益求精；用控制环的纪律去要求探索性工作，会杀死新意。分类提供共享词汇，让「用错了环」成为可指认的错误，而不是笼统的「流程不行」。	quanttide-tutorial-of-agent-engineering#loop/classification.md	no
+agent-007	智能体工程	- 概述：技能简介和使用场景 - 指令：分步骤操作说明 - 示例：输入输出示例 - 注意事项：常见问题和边界情况	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-008	智能体工程	一定要准确地定义 Skill 的名称和分类。命名和分类实际上就是在理解这个流程到底是什么，也为了以后持续改进做准备。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-009	智能体工程	本文档定义量潮科技智能体技能（Skill）的格式规范，遵循 [Agent Skills](https://github.com/agentskills/agentskills) 开放标准。	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-010	智能体工程	约束工程是把约束写进系统、而不是写进提示词的工程方法。沙箱、审批、提示词等结构性手段划定智能体的行为边界，使约束成为系统的属性，而不是模型的选择。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
+agent-011	智能体工程	创造环：以CODE循环为标准参考。 适应环：以OODA循环为标准参考。 控制环：以PDCA循环为标准参考。	quanttide-handbook-of-agent-engineering#loop/index.md	no
+agent-012	智能体工程	人类可以不纠结 Skill 的具体文本，但是一定要维护好命名、描述等元数据。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-013	智能体工程	- `devops-release`：devops 领域的 release 技能 - `docs-format`：docs 领域的 format 技能 - `code-lint`：code 领域的 lint 技能	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-014	智能体工程	这套分类的最大收益发生在把环委托给智能体执行的瞬间。人可以凭语感选环，智能体必须依赖显式判据——所以显式分类不是文档洁癖，而是人机协作的接口约定。	quanttide-tutorial-of-agent-engineering#loop/classification.md	no
+agent-015	智能体工程	- 技能标签列表 - 用于分类和检索 - 示例：`["docs", "writing", "format"]`	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-016	智能体工程	显式分类的意义不在于给已知方法论归档，而在于把循环从品牌名升维成工程原语——可判断、可组合、可委托。放在智能体工程的大局里，这个动作有五层价值。	quanttide-tutorial-of-agent-engineering#loop/classification.md	yes
+agent-017	智能体工程	- 长度 1-1024 字符 - 应描述技能功能和使用场景 - 应包含关键词，帮助智能体识别相关任务	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-018	智能体工程	真实工作是嵌套的环，不是单个环。以 DevOps 为例：规划阶段用创造环产生规格，CI 用控制环守住质量，线上事故响应用适应环追赶环境。分类明确了「哪一段由哪种环主导」，才谈得上环与环的衔接，否则就是一堆仪式的堆叠。	quanttide-tutorial-of-agent-engineering#loop/classification.md	no
+agent-019	智能体工程	量潮智能体工程手册 — 领域工作方法与操作指南。	quanttide-handbook-of-agent-engineering#README.md	yes
+agent-020	智能体工程	比如说，你让 AI 写一个新功能，先增加一个开发者文档，增加一个代码模块，再对应增加一个单元测试模块，再增加一个用户文档说明。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-021	智能体工程	Markdown 正文包含技能指令。参考[文档格式标准](https://github.com/quanttide/quanttide-bylaw-of-document-engineering/blob/main/format/index.md)进行写作。	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-022	智能体工程	有两个重点补充说明。一是一定要从实际工作中总结，因为这是经过有效验证的。二是要让 AI 自己总结，人手动维护的 Skill 大多比较缺乏必要细节而质量糟糕。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-023	智能体工程	- 遵循语义化版本规范：`主版本.次版本.修订号` - 例如：`1.0.0`、`0.1.0`	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-024	智能体工程	分类本身就是循环工程的元认知分类监控该运行哪种环。系统成熟的标志是有意识地选择自己所处的环，而不是被动落进某一种。	quanttide-tutorial-of-agent-engineering#loop/classification.md	no
+agent-025	智能体工程	注意：智能体激活技能时会加载整个 `SKILL.md` 文件。内容过长时，考虑拆分到引用文件。	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-026	智能体工程	一个对话结束以后，就可以要求 AI“总结我们刚才的工作流程”，然后“遵循 Agent Skill规范（规范网页地址）写成 xxx 文件”。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-027	智能体工程	`SKILL.md` 文件必须包含 YAML 头部元数据，后跟 Markdown 内容。	quanttide-handbook-of-agent-engineering#skill/index.md	no
+agent-028	智能体工程	低质量的 Skill 对于人机都是负担。所以质量低的 Skill 要及时抛弃。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-029	智能体工程	- [harness/](harness/)：DeepSeek Harness 主题教程。 - [约束工程](harness/index.md)：用结构性约束划定智能体行为边界。	quanttide-tutorial-of-agent-engineering#README.md	no
+agent-030	智能体工程	在这个“纯净的对话”里，我们只做一件事情，且这件事情都由 AI 接管，人类只让 AI 按既定流程一步一步走。这样的对话环境捕捉的人类的隐式知识的非常干净的，因此可以给 AI 提供良好的环境捕捉 Skill。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-031	智能体工程	命名尽可能简单直接，比如“发布 release”、“计划 plan”、“设计 design”、“格式 format”等等。 这样一眼就可以知道这个 Skill 在做什么。建议把领域名称作为前缀区分，如“docs-format”是文档格式维护 Skill。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-032	智能体工程	1. 最小权限起步：从 read-only 或 workspace-write 开始，按任务需要放宽。 2. 外层优先：能靠沙箱解决的，不要靠审批；能靠审批解决的，不要靠提示词。 3. 失败安全：默认拒绝、显式授权，无法判断时按最保守路径处理。 4. 可审计：约束的每次拦截都应能从会话日志还原。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
+agent-033	智能体工程	使用一个纯净的对话完整地做一遍事情，然后在结束的时候复盘你的方法，再把这个方法提炼到项目的 Skill 里。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-034	智能体工程	三类环的收敛判据完全不同——控制环看方差是否收敛，适应环看节奏是否追上环境，创造环看表达是否完成。对智能体这是生死问题：环没有终止条件就是烧 token 的死循环。分类直接给出终止条件与度量的模板，这也是 显式化循环时的类型依据。	quanttide-tutorial-of-agent-engineering#loop/classification.md	no
+agent-035	智能体工程	分类尽可能遵循量潮的标准领域划分，比如“编程 code”、“写作 write”、“数字资产 asset”、“数据工程 data”、“文档工程 docs” 等。	quanttide-tutorial-of-agent-engineering#skill.md	no
+agent-036	智能体工程	- 把安全边界写进提示词：模型可违反、可漂移，无第二道防线。 - never 搭配 danger-full-access：审批与沙箱同时失效，约束形同虚设。 - 过度约束：agent 无法完成需要弹性的任务，约束沦为摩擦。 - 约束不可见：用户不知边界所在，误判 agent 的能力范围。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
+agent-037	智能体工程	约束工程把「期望」变成「结构」：模型在约束之内自由行动，约束之外无从发生。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
+agent-038	智能体工程	设计目标是让最危险的路径在最外层就被截断。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
+agent-039	智能体工程	- 沙箱模式：read-only 只读、workspace-write 仅工作区可写、danger-full-access 全权访问。默认只读、显式放宽。 - 审批策略：ask 危险操作先询问用户，默认；never 确定性拒绝，适合无人值守。 - 提示词与技能：表达偏好与流程，适合规范做事方式，不适合作为安全边界。 - 规划模式：先提交计划、经用户批准后再执行。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
+agent-040	智能体工程	- 环境约束：沙箱决定能访问什么，最硬。 - 决策约束：审批决定危险动作是否询问用户。 - 上下文约束：提示词与技能影响怎么做事，最软。	quanttide-tutorial-of-agent-engineering#harness/index.md	no
